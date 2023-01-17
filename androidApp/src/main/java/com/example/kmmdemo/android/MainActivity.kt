@@ -83,5 +83,11 @@ fun Greeting(text: String) {
 fun DefaultPreview() {
     MyApplicationTheme {
         Greeting("Hello, Android!")
+
     }
+}
+
+fun getInfo(name:String){
+
+
 }

@@ -10,7 +10,7 @@ CREATE TABLE noteEntity  (
 getAllNotes:
 SELECT * FROM noteEntity;
 
-getAllNotesById:
+getNoteById:
 SELECT * FROM noteEntity WHERE id = ?;
 
 insertNote:

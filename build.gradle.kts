@@ -17,3 +17,9 @@ buildscript {
         classpath("com.squareup.sqldelight:gradle-plugin:$sqlDelightVersion")
     }
 }
+
+repositories {
+    maven(url = uri("https://repo.tools.telstra.com/repository/maven-public"))
+    mavenCentral()
+    maven( url = uri("https://plugins.gradle.org/m2/"))
+}

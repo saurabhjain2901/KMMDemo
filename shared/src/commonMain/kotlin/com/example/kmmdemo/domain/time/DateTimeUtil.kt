@@ -12,7 +12,7 @@ object DateTimeUtil {
     }
 
     fun formatNoteDate(dateTime: LocalDateTime): String {
-        val month = dateTime.month.name.toLowerCase().take(3).replaceFirstChar { it.uppercase() }
+        val month = dateTime.month.name.lowercase().take(3).replaceFirstChar { it.uppercase() }
         val day = if (dateTime.dayOfMonth < 10) "0${dateTime.dayOfMonth}" else dateTime.dayOfMonth
         val year = dateTime.year
         val hour = if (dateTime.hour < 10) "0${dateTime.hour}" else dateTime.hour

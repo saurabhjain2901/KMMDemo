@@ -80,3 +80,6 @@ android {
         targetSdk = 33
     }
 }
+dependencies {
+    testImplementation("junit:junit:4.12")
+}

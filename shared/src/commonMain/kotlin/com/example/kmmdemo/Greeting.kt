@@ -5,5 +5,6 @@ class Greeting {
 
     fun greeting(): String {
         return "Hello Somesh Verma - , ${platform.name}!"
+        return "Hello World - , ${platform.name}!"
     }
 }

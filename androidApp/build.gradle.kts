@@ -1,3 +1,4 @@
+import org.jetbrains.kotlin.kapt3.base.Kapt.kapt
 
 plugins {
     id("com.android.application")
@@ -7,10 +8,10 @@ plugins {
 }
 
 android {
-    namespace = "com.example.kmmdemo.android"
+    namespace = "com.saurabh.kmmdemo.android"
     compileSdk = 33
     defaultConfig {
-        applicationId = "com.example.kmmdemo.android"
+        applicationId = "com.saurabh.kmmdemo.android"
         minSdk = 21
         targetSdk = 33
         versionCode = 1

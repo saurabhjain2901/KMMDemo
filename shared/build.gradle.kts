@@ -67,13 +67,13 @@ kotlin {
 
 sqldelight {
     database("NoteDatabase") {
-        packageName = "com.example.kmmdemo.database"
+        packageName = "com.saurabh.kmmdemo.database"
         sourceFolders = listOf("sqldelight")
     }
 }
 
 android {
-    namespace = "com.example.kmmdemo"
+    namespace = "com.saurabh.kmmdemo"
     compileSdk = 33
     defaultConfig {
         minSdk = 21

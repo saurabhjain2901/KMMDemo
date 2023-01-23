@@ -3,7 +3,6 @@ package com.example.kmmdemo.android.note_list
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import androidx.work.WorkContinuation.combine
 import com.example.kmmdemo.domain.note.Note
 import com.example.kmmdemo.domain.note.NoteDataSource
 import com.example.kmmdemo.domain.note.SearchNotes
@@ -57,5 +56,8 @@ class NoteListViewModel @Inject constructor(
             loadNotes()
         }
     }
+
+    val list = listOf(1, 3, 5, 7)
+
 
 }

@@ -72,7 +72,6 @@ fun NoteListScreen(
                         .height(90.dp)
                 )
             this@Column.AnimatedVisibility(
-//                AnimatedVisibility(
                     visible = !state.isSearchActive,
                     enter = fadeIn(),
                     exit = fadeOut()

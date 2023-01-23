@@ -1,0 +1,6 @@
+
+
+CREATE TABLE Test (
+    name INTEGER,
+    email TEXT
+);
